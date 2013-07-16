@@ -25,7 +25,7 @@ A jekyll starting point. Based on [Jekyll Boilerplate](https://github.com/necola
 |   |-- index.html
 |-- .gitignore
 |-- _config.yml
-|-- componenet.json
+|-- bower.json
 |-- index.html
 |-- README.md
 </pre>
@@ -57,8 +57,8 @@ This is an implementation of Jekyll designed to be used more as a landing page. 
 ### _config.yml ###
 This is where you will be putting your Jekyll configuration options. If this file is omitted Jekyll will use its defualts to build your site. You can find the configuration options and default configuration [here](https://github.com/mojombo/jekyll/wiki/configuration).
 
-### component.json ###
-This is the thunderous overlord of the `$ bower install` command. If you've not used bower before, you can read up on it [here](http://twitter.github.com/bower). Be sure to run `$ bower install` to update your components to the latest version. This command reads the `component.json` file and installs the listed components into a `components` directory.
+### bower.json ###
+This is the thunderous overlord of the `$ bower install` command. If you've not used bower before, you can read up on it [here](http://twitter.github.com/bower). Be sure to run `$ bower install` to update your components to the latest version. This command reads the `bower.json` file and installs the listed components into a `components` directory.
 
 ### index.html ###
 This is used to render the site's index. It is essntially a post loop wrapped in your base layout.
