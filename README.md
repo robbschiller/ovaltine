@@ -7,6 +7,7 @@ A jekyll starting point. Based on [Jekyll Boilerplate](https://github.com/necola
 1. `$ git clone git@github.com:robbschiller/jekyll-boilerplate.git`
 2. [Bower](http://twitter.github.com/bower): `$ bower install` from the project directory
 3. Build
+4. CHANGE THE EFFING CNAME
 
 ### Structure ###
 <pre>
