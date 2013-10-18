@@ -1,0 +1,19 @@
+@mixin flex {
+  margin: 0 auto;
+}
+
+@mixin border-fade {
+  transition: border-color 0.2s ease-out !important;
+  -o-transition: border-color 0.2s ease-out !important;
+  -ms-transition: border-color 0.2s ease-out !important;
+  -moz-transition: border-color 0.2s ease-out !important;
+  -webkit-transition: border-color 0.2s ease-out !important;
+}
+
+@mixin background-fade {
+  transition: background-color 0.2s ease-out !important;
+  -o-transition: background-color 0.2s ease-out !important;
+  -ms-transition: background-color 0.2s ease-out !important;
+  -moz-transition: background-color 0.2s ease-out !important;
+  -webkit-transition: background-color 0.2s ease-out !important;
+}

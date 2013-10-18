@@ -1,0 +1,22 @@
+.button {
+  border: 3px solid $main-c;
+  background: $main-c;
+  font-size: 90%;
+  padding: 4px 18px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  @include background-fade;
+
+  &:hover {
+    background: darken($main-c, 20%);
+  }
+
+  &:active {
+    border-color: darken($main-c, 20%);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

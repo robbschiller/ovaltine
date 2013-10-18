@@ -1,5 +1,5 @@
 {
-  "name": "myProject",
+  "name": "jekyll-boilerplate",
   "version": "0.0.1",
   "main": "assets/styles.css",
   "dependencies": {

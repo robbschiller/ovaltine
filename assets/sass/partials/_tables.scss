@@ -1,0 +1,25 @@
+table {
+  text-align: center;
+  width: 100%;
+
+  thead {
+    background: $asset-c;
+
+    tr {
+
+      th {
+        border: 1px solid $asset-c;
+      }
+    }
+  }
+
+  tbody {
+
+    tr {
+
+      td {
+        border: 1px solid $asset-c;
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+input {
+  border: 1px solid $asset-c;
+  padding: 6px;
+  font-size: 90%;
+  width: 50%;
+  @include border-fade;
+
+  &:hover {
+    border-color: darken($asset-c, 10%);
+  }
+
+  &:focus {
+    outline: 1px solid darken($asset-c, 20%);
+    outline-offset: 0;
+    border: 1px solid darken($asset-c, 20%);
+  }
+}
+
+fieldset {
+  border: none;
+  margin: 10px 0;
+  padding: 0;
+
+  .input {
+    margin: 2px 0;
+  }
+}

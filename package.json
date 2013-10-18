@@ -1,0 +1,21 @@
+{
+  "name": "jekyll-boilerplate",
+  "version": "0.0.0",
+  "description": "A Fancy Pants Jekyll Starting Point",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robbschiller/jekyll-boilerplate.git"
+  },
+  "author": "robbschiller",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/robbschiller/jekyll-boilerplate/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-jekyll": "~0.4.0",
+    "grunt-sass": "~0.6.1",
+    "grunt-concurrent": "~0.4.1"
+  }
+}

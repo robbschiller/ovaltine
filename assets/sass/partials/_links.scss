@@ -1,0 +1,7 @@
+a {
+  text-decoration: none;
+  color: $main-c;
+  &:hover {
+    color: darken($main-c, 10%)
+  }
+}

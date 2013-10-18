@@ -1,33 +1,44 @@
 ## Jekyll Boilerplate ##
 
-A jekyll starting point. Based on [Jekyll Boilerplate](https://github.com/necolas/jekyll-boilerplate) by Necolas Gallagher. A slightly more landing-page-esque implementation of Jekyll.
+Just what the doctor ordered.
 
 ### Getting Started ###
 
 1. `$ git clone git@github.com:robbschiller/jekyll-boilerplate.git`
 2. [Bower](http://twitter.github.com/bower): `$ bower install` from the project directory
 3. Build
-4. CHANGE THE #$##$# CNAME
+4. Update CNAME before deploy
+
 
 ### Structure ###
+
 <pre>
 .
-|-- _includes
 |-- _layouts
 |   |-- default.html
 |   |-- post.html
 |-- _posts
-|   |-- 2013-02-26-placeholder-post.md
+|   |-- 2013-02-26-test-post.md
 |-- assets
-|   |-- img
 |   |-- css
 |   |   |-- style.css
+|   |-- img
+|   |-- lib
+|   |-- |-- [bower components]
+|   |-- sass
+|   |-- |-- glob
 |-- blog
 |   |-- index.html
+|-- node_modules
+|   |-- [node modules]
+|-- .bowerrc
 |-- .gitignore
 |-- _config.yml
 |-- bower.json
+|-- CNAME
+|-- Gruntfile.js
 |-- index.html
+|-- package.json
 |-- README.md
 </pre>
 
