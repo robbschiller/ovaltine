@@ -16,6 +16,7 @@
     "grunt": "~0.4.1",
     "grunt-jekyll": "~0.4.0",
     "grunt-sass": "~0.6.1",
-    "grunt-concurrent": "~0.4.1"
+    "grunt-concurrent": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3"
   }
 }

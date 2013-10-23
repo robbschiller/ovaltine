@@ -492,7 +492,7 @@ html {
   .navbar li {
     display: inline; }
 
-.button {
+.btn {
   border: 3px solid #454545;
   background: #454545;
   font-size: 90%;
@@ -505,11 +505,11 @@ html {
   -ms-transition: background-color 0.2s ease-out !important;
   -moz-transition: background-color 0.2s ease-out !important;
   -webkit-transition: background-color 0.2s ease-out !important; }
-  .button:hover {
+  .btn:hover {
     background: #121212; }
-  .button:active {
+  .btn:active {
     border-color: #121212; }
-  .button:focus {
+  .btn:focus {
     outline: none; }
 
 input {

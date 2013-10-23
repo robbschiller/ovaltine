@@ -4,6 +4,13 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
+    watch: {
+      sass: {
+        files: ['assets/sass/partials/**.scss', 'assets/sass/modules/**.scss'],
+        tasks: 'sass:dev'
+      }
+    },
+
     sass: {
       dist: {
         options: {
@@ -32,7 +39,7 @@ module.exports = function(grunt) {
     },
 
     concurrent: {
-      tasks: ['sass:dev', 'jekyll:dev'],
+      tasks: ['watch:sass', 'jekyll:dev'],
       options: {
         logConcurrentOutput: true
       }
@@ -41,6 +48,7 @@ module.exports = function(grunt) {
   });
 
   // Load Plugins
+  grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-concurrent');
