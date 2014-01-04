@@ -1,17 +1,37 @@
-// Base Imports //
+// ********************
+//
+// Base Project Settings
+//
+// ********************
 
-// Font weights
-$light: 100;
-$regular: 400;
-$bold: 600;
+//
+// Oh. That thing.
+//
 
-// Base Font
-$base-t: 'Open Sans', helvetica, sans-serif;
-$base-t-w: $regular;
-$base-t-s: 1.125em;
-$base-t-lh: 1.5em;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
-// Headings
-$base-t-w-b: $bold;
+//
+// Base Typographic Weights
+//
 
-@import "../modules/all";
+$type-light: 100;
+$type-regular: 400;
+$type-bold: 600;
+
+//
+// Base Typography
+//
+
+$base-type: 'Helvetica Neue', sans-serif;
+$base-type-weight: $type-regular;
+$base-type-size: 1.125em;
+
+// ********************
+//
+// Import All Modules
+//
+// ********************
+
+@import "modules/all";

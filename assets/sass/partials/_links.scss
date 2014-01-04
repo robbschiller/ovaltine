@@ -1,7 +1,13 @@
+// ********************
+//
+// Link Style
+//
+// ********************
+
 a {
   text-decoration: none;
-  color: $main-c;
+  color: $color-brand-main;
   &:hover {
-    color: darken($main-c, 10%)
+    color: darken($color-brand-main, 10%)
   }
 }

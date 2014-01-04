@@ -1,24 +1,30 @@
-table {
+// ********************
+//
+// Table Style
+//
+// ********************
+
+.table {
   text-align: center;
   width: 100%;
 
-  thead {
-    background: $asset-c;
+  .thead {
+    background: $color-brand-asset;
 
-    tr {
+    .tr {
 
-      th {
-        border: 1px solid $asset-c;
+      .th {
+        border: 1px solid $color-brand-asset;
       }
     }
   }
 
-  tbody {
+  .tbody {
 
-    tr {
+    .tr {
 
-      td {
-        border: 1px solid $asset-c;
+      .td {
+        border: 1px solid $color-brand-asset;
       }
     }
   }

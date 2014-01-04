@@ -1,22 +1,35 @@
-input {
-  border: 1px solid $asset-c;
+// ********************
+//
+// Input Styles
+//
+// ********************
+
+.input {
+  border: 1px solid $color-brand-asset;
   padding: 6px;
   font-size: 90%;
   width: 50%;
-  @include border-fade;
 
   &:hover {
-    border-color: darken($asset-c, 10%);
+    border-color: darken($color-brand-asset, 10%);
+    @include border-ease;
   }
 
   &:focus {
-    outline: 1px solid darken($asset-c, 20%);
+    outline: 1px solid darken($color-brand-asset, 20%);
+    border: 1px solid darken($color-brand-asset, 20%);
+    @include border-ease;
     outline-offset: 0;
-    border: 1px solid darken($asset-c, 20%);
   }
 }
 
-fieldset {
+// ********************
+//
+// Input Collections
+//
+// ********************
+
+.fieldset {
   border: none;
   margin: 10px 0;
   padding: 0;

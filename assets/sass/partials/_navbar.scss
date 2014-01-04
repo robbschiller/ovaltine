@@ -1,15 +1,22 @@
+// ********************
+//
+// Navigation Style
+//
+// ********************
+
 .navbar {
 
-  background: $asset-c;
+  background: $color-brand-asset;
   padding: 20px 0;
 
-  .logo {
+  // Logo Element
+  .navbar--logo {
     display: inline;
   }
 
-  nav {
+  // Navigation Element
+  .navbar--nav {
     display: inline;
-    float: right;
   }
 
   ul {
