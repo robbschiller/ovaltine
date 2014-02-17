@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel "shortcut icon" href="">
-        <link rel="stylesheet" type="text/css" href="/assets/lib/normalize-css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-    </head>
+
+    {% include head.html %}
+
     <body>
+
     	<header>
 			<nav>
 				<a href="/">Home</a>
@@ -16,6 +12,7 @@
 				<a href="/blog">Blog</a>
 			</nav>
 		</header>
+
 		<main>
         	{{ content }}
         </main>

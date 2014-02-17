@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "assets/styles.css",
   "dependencies": {
-    "jquery": "latest",
-  	"normalize-css": "latest"
+    "jquery": "latest"
   }
 }

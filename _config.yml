@@ -1,2 +1,7 @@
-serve: true
-markdown: rdiscount
+serve:         true
+markdown:      rdiscount
+permalinks:    pretty
+
+title:         Site Title
+description:   Site Description
+url:           http://aweso.me
