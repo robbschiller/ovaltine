@@ -1,62 +1,9 @@
-// ********************
+// ========================================
 //
-// Button Style
+// Button Styles
 //
-// ********************
+// ========================================
 
-.btn {
-  border: 3px solid;
-  font-size: 90%;
-  padding: 4px 18px;
-  color: #fff;
-  text-decoration: none;
-  outline: none;
-  cursor: pointer;
-  @include background-ease;
+.button {
 
-  &:hover {
-    background: darken($color-brand-main, 20%);
-  }
-
-  &:active {
-    border-color: darken($color-brand-main, 20%);
-  }
-}
-
-//
-// Button Navbar
-//
-.btn--navbar {
-  @extend .btn;
-}
-
-//
-// Button Primary
-//
-
-.btn--primary {
-  @extend .btn;
-  @extend .btn:hover;
-  border-color: $color-brand-main;
-  background: $color-brand-main;
-}
-
-//
-// Button Warning
-//
-
-.btn--warning {
-  @extend .btn;
-  border-color: $color-warning;
-  background: $color-warning;
-}
-
-//
-// Button Danger
-//
-
-.btn--danger {
-  @extend .btn;
-  border-color: $color-danger;
-  background: $color-danger;
 }

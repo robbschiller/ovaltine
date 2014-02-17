@@ -1,33 +1,28 @@
-// ********************
+// ========================================
 //
-// Mixin Collection
+// Base Mixin Collection
 //
-// ********************
+// ========================================
 
-//
-// Responsive Module Mixins
-//
+// Animation Mixin
+// ========================================
 
-@mixin flex {
-  margin: 0 auto;
-}
+@mixin animation ($animation, $delay, $duration, $function, $count) {
+	animation-name: $animation;
+	animation-delay: $delay;
+	animation-duration: $duration;
+	animation-iteration-count: $count;
+	animation-timing-function: $function;
 
-//
-// Interface Transition Mixins
-//
+	-moz-animation-name: $animation;
+	-moz-animation-delay: $delay;
+	-moz-animation-duration: $duration;
+	-moz-animation-iteration-count: $count;
+	-moz-animation-timing-function: $function;
 
-@mixin border-ease {
-  transition:         border-color 0.2s ease-in-out !important;
-  -o-transition:      border-color 0.2s ease-in-out !important;
-  -ms-transition:     border-color 0.2s ease-in-out !important;
-  -moz-transition:    border-color 0.2s ease-in-out !important;
-  -webkit-transition: border-color 0.2s ease-in-out !important;
-}
-
-@mixin background-ease {
-  transition:         background-color 0.2s ease-in-out !important;
-  -o-transition:      background-color 0.2s ease-in-out !important;
-  -ms-transition:     background-color 0.2s ease-in-out !important;
-  -moz-transition:    background-color 0.2s ease-in-out !important;
-  -webkit-transition: background-color 0.2s ease-in-out !important;
+	-webkit-animation-name: $animation;
+	-webkit-animation-delay: $delay;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-iteration-count: $count;
+	-webkit-animation-timing-function: $function;
 }

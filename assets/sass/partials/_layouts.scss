@@ -1,13 +1,25 @@
-// ********************
+// ========================================
 //
-// Layout Styles
+// Layout patterns
 //
-// ********************
+// ========================================
 
-.centered {
-  text-align: center;
+// Container
+// ========================================
+.container {
+	max-width: $container-main;
+	margin: 0 auto;
+	padding: 0 1em;
 }
 
+// Masthead
+// ========================================
 .masthead {
-  margin: 2em 0;
+	background: $color-accent;
+	padding: 4em 0;
+}
+
+// Centered
+.centered {
+	text-align: center;
 }
