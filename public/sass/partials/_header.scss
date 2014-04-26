@@ -1,0 +1,25 @@
+// ========================================
+//
+// Header Design
+//
+// ========================================
+
+.header {
+	padding: 1em 0;
+
+	.header--title {
+		display: inline-block;
+	}
+
+	.header--nav {
+		float: right;
+
+		ul, li {
+			margin: 0;
+		}
+
+		.header--nav_item {
+			display: inline-block;
+		}
+	}
+}

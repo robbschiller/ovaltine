@@ -1,0 +1,25 @@
+// ========================================
+//
+// Layout patterns
+//
+// ========================================
+
+// Container
+// ========================================
+.container {
+	max-width: $container-main;
+	margin: 0 auto;
+	padding: 0 1em;
+}
+
+// Masthead
+// ========================================
+.masthead {
+	background: $color-accent;
+	padding: 4em 0;
+}
+
+// Centered
+.centered {
+	text-align: center;
+}

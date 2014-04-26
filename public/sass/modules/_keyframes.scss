@@ -1,0 +1,24 @@
+// ========================================
+//
+// Keyframe Mixin
+//
+// ========================================
+
+// Keyframe Mixin
+// Adds vendor prefixes to keyframes
+// ========================================
+
+@mixin keyframe ($name) {
+	@keyframes #{$name} {
+		@content;
+	}
+	@-ms-keyframes #{$name} {
+		@content;
+	}
+	@-moz-keyframes #{$name} {
+		@content;
+	}
+	@-webkit-keyframes #{$name} {
+		@content;
+	}
+}
