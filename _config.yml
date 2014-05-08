@@ -5,3 +5,6 @@ permalinks:    pretty
 title:         Site Title
 description:   Site Description
 url:           http://aweso.me
+
+sass:
+  sass_dir: public/sass
